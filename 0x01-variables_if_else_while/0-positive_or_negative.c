@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-/*
+/**
  * generate rondom numbers
  */
 int main(void)
