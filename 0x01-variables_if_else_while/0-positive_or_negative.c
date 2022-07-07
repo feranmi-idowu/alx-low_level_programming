@@ -5,19 +5,20 @@
 /*
  * generate rondom numbers
  */
-int main()
+int main(void)
 {
 int n;
-srand(time(NULL));
-if n < 0
+srand(time(0));
+n = rand() - RAND_MAX / 2
+if (n < 0)
 {
 printf("%d\n is negative", rand());
 }
-else if n > 0
+else if (n > 0)
 {
 printf("%d\n is positive", rand());
 }
-else n == 0
+else
 {
 printf("%d\n is zero", rand());
 }
