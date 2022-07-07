@@ -9,18 +9,18 @@ int main(void)
 {
 int n;
 srand(time(0));
-n = rand() - RAND_MAX / 2
+n = rand() - RAND_MAX / 2;
 if (n < 0)
 {
-printf("%d\n is negative", rand());
+printf("%d is negative\n", rand());
 }
-else if (n > 0)
+else if (n == 0)
 {
-printf("%d\n is positive", rand());
+printf("%d is zero\n", rand());
 }
 else
 {
-printf("%d\n is zero", rand());
+printf("%d is positive\n", rand());
 }
 return 0;
 }
