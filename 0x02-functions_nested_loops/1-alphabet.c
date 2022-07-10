@@ -7,8 +7,10 @@
  */
 void print_alphabet(void)
 {
-char alpha;
-for (alpha = 'a'; alpha <= 'Z'; alpha++)
-_putchar(alpha);
-_putcha('\n');
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
 }
