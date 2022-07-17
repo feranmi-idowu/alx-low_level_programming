@@ -5,6 +5,7 @@
  * @dest:copy to
  * @src: copy from
  * @n: n
+ * 
  * Return: Always 0
  */
 char *_strncat(char *dest, char *src, int n)
