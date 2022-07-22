@@ -1,6 +1,14 @@
 #include"main.h"
 
 /**
+ * sqrt_check - checks for the square root of c
+ * @g:guess at sqrt
+ * @c: number to find sqrt of
+ *
+ * Return: -1 or sqrt of c
+ */
+
+/**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: integer to find sqrt of
  *
