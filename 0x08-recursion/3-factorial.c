@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _factorial - entry point
- * @Factorial of 0 is 1
+ * factorial - entry point
  * @n: input
  * Return: Always 0 (Success)
  */
