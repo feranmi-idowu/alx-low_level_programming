@@ -3,13 +3,15 @@
 /**
  * _puts - Prints a string
  * @str: The string to print
- *
- * return 0
+ * Return: string
  */
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
+int i;
 
-	_putchar('\n');
+for (i = 0; str[i] != '\0'; i++)
+{
+_putchar(str[i]);
+}
+_putchar('\n');
 }
