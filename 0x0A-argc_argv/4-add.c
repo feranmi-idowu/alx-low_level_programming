@@ -6,9 +6,8 @@
 /**
  * checker - checks for valid input
  * @argc: argument count
- * @i: counter for argv[]
- * @j: counter for argv[][]
  * @argv: argument vector
+ *
  * Return: 0 on success, 1 on failure
  */
 int main(int argc, char *argv[])
