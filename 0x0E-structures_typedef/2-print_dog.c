@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * print_dog - print a struct dog.
+ * print_dog - prints a struct dog.
  * @d: pointer.
  *
  * return: void.
@@ -24,8 +24,8 @@ void print_dog(struct dog *d)
 	printf("Age: %f\n", d->age);
 
 	if (d->owner == NULL)
-		printf("Name: (nil)\n");
+		printf("Owner: (nil)\n");
 	else
-		printf("Name: %s\n", d->name);
+		printf("Owner: %s\n", d->name);
 	}
 }
