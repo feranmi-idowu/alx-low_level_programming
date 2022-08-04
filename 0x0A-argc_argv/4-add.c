@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include <string.h>
 
 /**
- * checker - checks for valid input
- * @argc: argument count
- * @argv: argument vector
+ * main - Program that adds positive numbers
+ * @argc: This is the argument count
+ * @argv: This is the argument vector
  *
- * Return: 0 on success, 1 on failure
+ * Return: 0;
  */
 int main(int argc, char *argv[])
 {
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 				if (str[b] < 48 || str[b] > 57)
 				{
 					printf("Error\n");
-					return(0);
+					return (1);
 				}
 			}
 		}
@@ -37,5 +37,5 @@ int main(int argc, char *argv[])
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-	return(0);
+	return (0);
 }
